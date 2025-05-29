@@ -7,7 +7,7 @@ number = []
 def printmadlibs():
     i = 0
     while i < 3:
-        x = input("Enter a noun: ").strip(" ").replace(" ","")
+        x = input("Enter a noun: ").strip().replace("  ","")
         if x == "":
             x = "[nothing entered]"
         noun.append(x)
@@ -15,7 +15,7 @@ def printmadlibs():
 
     i = 0
     while i < 1:
-        x = input("Enter a proper noun: ").strip(" ").replace(" ","")
+        x = input("Enter a proper noun: ").strip().replace("  ","")
         if x == "":
             x = "[nothing entered]"
         propernoun.append(x)
@@ -23,7 +23,7 @@ def printmadlibs():
 
     i = 0
     while i < 2:
-        x = input("Enter an adjective: ").strip(" ").replace(" ","")
+        x = input("Enter an adjective: ").strip().replace("  ","")
         if x == "":
             x = "[nothing entered]"
         adj.append(x)
@@ -31,7 +31,7 @@ def printmadlibs():
 
     i = 0
     while i < 5:
-        x = input("Enter a verb: ").strip().replace(" ","")
+        x = input("Enter a verb: ").strip().replace("  ","")
         if x == "":
             x = "[nothing entered]"
         verb.append(x)
@@ -39,7 +39,7 @@ def printmadlibs():
 
     i = 0
     while i < 1:
-        x = input("Enter a number: ").strip(" ").replace(" ","")
+        x = input("Enter a number: ").strip().replace("  ","")
         if x == "":
             x = "[nothing entered]"
         number.append(x)
