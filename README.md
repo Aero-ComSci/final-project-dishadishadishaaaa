@@ -12,3 +12,10 @@ This program is for people who want to create silly and entertaining stories by 
 
 WHAT?
 It’s a Mad Libs game where you enter different types of words like nouns, verbs, and adjectives. The program then automatically puts those words into a story to make a fun and unique story every time.
+
+```propernoun = []
+noun = []
+adj = []
+verb = []
+number = []
+```
